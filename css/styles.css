@@ -1,11 +1,6 @@
 body{
   font-family: "Montserrat";
-  color:black;
-   margin:0;
-  padding:0;
-  width:100%;
-  height:100%;
-  overflow-x: hidden!important;
+ 
 }
 
 #title{
@@ -172,7 +167,13 @@ filter: invert(100%)
   padding-top:15px;
 }
 @media(max-width:1001px){
-
+html,body{
+   margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+  overflow-x: hidden!important;
+  }
   #title{
     text-align: center;
   }
