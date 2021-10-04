@@ -38,7 +38,7 @@ font-weight: bolder;
 .doggy{
 width:62%;
 margin-left:10px;
-
+margin-top:400px;
 }
 .dd{
     display: inline-block;
@@ -50,7 +50,7 @@ margin-left:10px;
       padding-bottom: 0px;
       padding-left: 4px;
       height: 0px;
-  bottom:396px!important;
+  
   
 
 
@@ -187,6 +187,8 @@ transform: rotate(0);
 
   }
   .doggy{
+    position:absolute;
+    left:0px;
 width: 0px;
 
   }
