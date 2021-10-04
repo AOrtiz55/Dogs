@@ -38,7 +38,7 @@ font-weight: bolder;
 .doggy{
 width:62%;
 margin-left:10px;
-margin-top:0px!important;
+
 }
 .dd{
     display: inline-block;
@@ -50,6 +50,7 @@ margin-top:0px!important;
       padding-bottom: 0px;
       padding-left: 4px;
       height: 0px;
+  bottom:396px;
 
 
 }
