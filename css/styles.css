@@ -136,22 +136,14 @@ h3{
 
 
 }
-.carousel-control-prev .active {
+.carousel-control-prev,carousel-control-next {
 
 
-filter: invert(100%)
+filter: invert(100%);
 
 }
-.carousel-control-prev-icon .active{
-  background-color: red;
-  border: 5px solid;
-  font-size: 100px;
-  font-weight: bolder;
-}
-.visually-hidden .actice{
-  background-color: blue;
-  border: 5px solid;
-}
+
+
 #pricing{
     padding:100px;
     text-align: center;
