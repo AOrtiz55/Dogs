@@ -136,7 +136,7 @@ h3{
 
 
 }
-.carousel-control-prev,carousel-control-next {
+.carousel-control-prev,carousel-control-next .active {
 
 
 filter: invert(100%);
