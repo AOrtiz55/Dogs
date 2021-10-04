@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="en">
+  <title>DogPals</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bonheur+Royale&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container">
+
+
+      <!-- Nav Bar -->
+      <nav class="navbar  navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="">D<i class="fas fa-paw paww"></i>gPals</a>
+        <button class="navbar-toggler navbar-dark bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-bs-controls="navbarSupportedContent" aria-bs-expanded="false" aria-bs-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" onclick="ll()" href="mailto:fakeemail@gmail.com">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="dLoad()"href="">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Find the perfect play date for your dog nearby.</h1>
+          <button type="button" class="btn  btn-lg db" onclick="dLoad()"style="background-color:orange"><i class="fab fa-apple"></i>Download</button>
+
+          <button type="button" class="btn  btn-lg db" onclick="dLoad()"style="background-color:orange" ><i class="fab fa-windows"></i>Download</button>
+
+        </div>
+        <div class="col-lg-6 ">
+          <img class="title-image" src="images/bark.png" alt="iphone-mockup">
+        </div>
+        <div class="col-lg-6  dd">
+          <img class="doggy " src="images/doggy.png" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+
+
+      <div class="ft-box col-lg-4">
+        <i class="icon fas fa-heart fa-4x"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+      <div class="ft-box col-lg-4">
+
+        <i class="icon fas fa-bullseye fa-4x"></i>
+
+
+        <h3>Elite Clientele</h3>
+        <p>We cover a wid range of locations in U.S and Abroad.</p>
+      </div>
+      <div class="ft-box col-lg-4">
+        <i class="icon fas fa-check-circle fa-4x"></i>
+
+
+
+        <h3>Guaranteed to work.</h3>
+        <p>Find your dogs new best friends or your money back.</p>
+      </div>
+
+    </div>
+
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I no longer have to play by myself at the park,now I have someone to play with my toys.Woof.</h2>
+          <img class="testimonial" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with DogPals, every Sunday he goes to the park with his new dog pal.</h2>
+          <img class="testimonial-ron" src="images/ronn.jpg" alt="man-profile">
+          <em>Edwardsville, Illinois</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Bringing my dog to America was hard for my little baby, but now she found tons of new friends! </h2>
+          <img class="testimonial" src="images/lu.jpg" alt="lady-profile">
+          <em>Bolivia</em>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev active li " type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon active " aria-hidden="true"></span>
+        <span class="visually-hidden active li">Previous</span>
+      </button>
+      <button class="carousel-control-next " type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon active" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="review" src="images/TechCrunch.png" alt="tc-logo">
+    <img class="review" src="images/tnw.png" alt="tnw-logo">
+    <img class="review" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="review" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+<a id="s"></a>
+  <section id="pricing" >
+
+    <h2 id="Anchor" class="planD">A Plan for Every Dog's Needs</h2>
+    <p class="Simple">Simple and affordable price plans for you and your dog.</p>
+    <div class=" sub row row-cols-1 row-cols-md-3 text-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="card shadow-sm">
+              <div class="card-header">
+                 <h3>Buddy Starter</h3>
+              </div>
+              <div class="card-body y">
+                 <h2>Free</h2>
+                <p>5 Matches Per Day</p>
+                <p>10 Messages Per Day</p>
+                <p>Unlimited App Usage</p>
+
+                <button type="button" onclick="free()"class="w-100 t btn btn-lg btn-outline-primary">Sign up for free</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card shadow-sm border-primary">
+              <div class="card-header ">
+                <h3>Premium</h3>
+              </div>
+
+              <div class="card-body y">
+                  <h2>$15 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+                <button type="button"  onclick="myFunction()"style="background-color: #76FF03"class="w-100 t btn btn-lg greeen">Sign up</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header text-white bg-primary border-primary">
+               <h3>Diamond</h3>
+              </div>
+              <div class="card-body">
+
+                      <h2>$30/ mo</h2>
+              <p>Pirority Listing</p>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+                <button type="button" onclick="redFunction()"style="background-color: #FF3D00"class="w-100 btn-lg  ">Best Deal</button>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+        <h3 class="true-love">Find your dog everlasting friends today.</h3>
+
+        <button type="button" class="btn  btn-lg db" onclick="dLoad()" style="background-color:orange"><i class="fab fa-apple"></i>Download</button>
+        <button type="button" class="btn  btn-lg db" onclick="dLoad()" style="background-color:orange"><i class="fab fa-windows"></i>Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="footer-bottom fab fa-facebook"></i>
+    <i class="footer-bottom fab fa-twitter"></i>
+    <i class="footer-bottom fab fa-instagram"></i>
+    <i class="footer-bottom fas fa-envelope"></i>
+
+    <p class="copy">© Copyright 2021 DogPals</p>
+
+  </footer>
+<script>
+$(document).ready(function() {
+  $('a')
+  .css('cursor', 'default')
+  .css('text-decoration', 'none');
+
+  $('a').on("click", function(e) {
+      e.preventDefault();
+  });
+});
+function free(){
+  alert("thank you for joining!");
+}
+function myFunction(){
+  alert("Thank you for choosing the premium plan!");
+}
+function redFunction(){
+  alert("This plan is exactly for you!");
+}
+function dLoad(){
+  alert("Not aviable at the moment, sorry!")
+}
+function ll(){
+  alert("my wife luciana will contact you soon!")
+}
+
+</script>
+
+</body>
+
+</html>
